@@ -1,0 +1,56 @@
+.sticky {
+    position: sticky;
+    font-size: 20px;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    padding: 1em 0;
+    background: #34495e;
+    color: white;
+    text-align: center;
+   transition: .32s;
+  }
+  .sticky ul{
+      display:inline-flex;
+      flex-direction: row;
+      justify-content: space-between;
+     list-style: none;
+     color: white;
+  }
+
+ .sticky ul li a{
+     margin-left: 30px;
+     text-decoration: none;
+     color:white;
+     
+ }
+
+  .fixed {
+    font-size: 24px;
+    position: fixed;
+    height: 20px;
+    transition: .25s;
+  }
+  
+  .top {
+    text-align: center;
+    background: #2980b9;
+    color: #fff;
+  }
+  
+  .bottom {
+    padding: 5em 0;
+    background: #2980b9;
+    color: white;
+    text-align: center;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  :root {
+    height: 1000%;
+    font-family: sans-serif;
+  }
+  
